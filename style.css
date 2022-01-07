@@ -1,0 +1,422 @@
+.html{
+    height: 100%;
+    /* scroll-behavior: smooth; */
+}
+
+.body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.css-navbar{
+    background-color: #161616;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.05),inset 0 -1px 0 rgba(0,0,0,.1);
+    min-height: 120px;
+}
+
+.css-navbar-brand{    
+    font-family: sans-serif;
+    font-size: 22px;         
+    font-weight: 550;
+    line-height: 31px;
+    /* letter-spacing: 0.1pt; */
+}
+
+.css-navbar-items{
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.services{
+    background-color: #F8CFA9;
+    text-align: center;
+}
+
+.css-moments {
+    color: white;
+    text-align: center;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('images/partygold.jpg');
+    background-attachment:fixed;
+    height: 100%; 
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.css-moments-header{
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 90px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+}
+
+.css-moments-text{
+    padding-bottom: 40px;
+}
+
+.css-moments-button{
+    color: black;
+    background-color: #FFBC93;
+    border-radius: 0;
+    transition-duration: 0.4s;
+}
+
+.css-moments-button:hover{
+    background-color: #7E5B49;
+    color: white;
+}
+
+.css-vision-part1{
+    display: flex;
+    font-family: sans-serif;    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;    
+    /* width: 100%;     */
+    background-color: #F2B28A;
+    color: #161616;
+    font-size: 15px;
+    line-height: 28px;
+    padding-left: 40px;        
+    padding-right: 40px;     
+}
+
+.css-vision-part1-heading{
+    color: black;
+    line-height:54px;
+    /* font-size: 50px; */
+    font-family: 'Dancing Script', cursive !important;
+    margin-bottom: 50px;
+}
+
+.css-vision-part2{
+    padding-right: 0px;
+}
+
+.css-vision-part1-text{
+    font-size: 18px;
+    /* padding: 0px 30px; */
+}
+
+
+.css-row{
+    padding: 48px;
+    width: 100%; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.css-past-events-header{
+    color: #F8CFA9;
+    text-align: center;
+    font-family:sans-serif;
+    line-height: 54px;
+    font-size: 40px;
+}
+
+.css-past-events-image:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    overflow: hidden;
+
+}
+
+.card-img-top {
+    z-index: -1;
+    transition: transform .2s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+.css-vision-image{
+    height: 500px; 
+}
+
+.css-past-events-subheader{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.css-past-events{
+    text-align: center;
+    border: none;
+    /* background-color: #161616; */
+    /* width: 100%; */
+}
+
+.css-past-events-name{
+    color: #F8CFA9;
+    font-size: 25px;
+}
+
+.css-past-events-details{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    /* padding-bottom: 20px;     */
+    font-size: 20px;    
+}
+
+.css-past-events-body{
+    background-color: #161616;    
+}
+
+.css-carousel{
+    height: 750px; 
+    background-color: #9B491E;
+}
+
+.css-carousel-heading{
+    color: #F8CFA9;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 54px;    
+    margin-top: 115px;
+}
+
+.css-carousel-subheading{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30px;
+    
+}
+
+.css-carousel-name{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.css-carousel-para{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.css-carousel-content{
+    /* display: flex; */
+    text-align: center;    
+    transform: translate3d(0,0,0);
+}
+
+.css-testimonial-img{
+    border-radius: 50%;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.css-contact{    
+    background-color: #161616;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.css-rental-title{
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 54px;    
+    text-align: center;
+    color: #F8CFA9;
+}
+.css-rental-subtitle{
+    font-family: 'Dancing Script', cursive;;
+    font-size: 23px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+.css-prof-heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    line-height: 54px;        
+}
+
+.rental-font{
+    font-size: 21px;
+}
+
+.box{
+    box-shadow:
+              0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+              0 12.5px 10px rgba(0, 0, 0, 0.06),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+              0 100px 80px rgba(0, 0, 0, 0.12)
+            ;
+    background-color: rgba(32,33,36, 0.3);
+    backdrop-filter: blur(16px) saturate(180%); border-radius: 12px;
+    color: whitesmoke;
+}
+
+a .btn-rental{
+    background-color: #FFCFCF;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.btn-rental:hover{
+    color: white;
+    background-color: #7E5B49;
+}
+
+
+/* Tablet */
+@media (max-width: 991px) and (min-width: 765px){
+    .css-moments-header{
+        font-size: 54px;
+        padding: 0px 60px;
+    }
+    
+    .css-moments-text{
+        padding: 20px 30px;
+    }
+    .css-vision-part1{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;        
+        height: 400px;
+
+    }
+
+
+    .css-vision-part1-heading{
+        font-size: 40px;
+        /* font-family: 'Dancing Script', cursive !important; */
+        margin:0px;
+    }
+
+    .css-vision-part1-text{
+        font-size: 18px;
+    }
+
+    .css-vision-image{
+        height: 400px;
+    }
+
+    .css-row{
+        padding: 0px;
+        margin-left:0px;
+        margin-right:0px;
+        /* align-items: center; */
+    }
+
+    .css-vision-part2{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .css-past-events{
+        margin-bottom: 10px;
+        padding: 0px 2px;
+    }
+
+    .css-carousel-para{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .rental-font{
+        font-size: 16px;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 764px){  
+    .rental-img{
+        width: 100%;
+    }
+
+    .css-vision-image{
+        display:none;
+    }
+    
+    .css-carousel{
+        height: 800px;
+    }
+
+    .css-past-events-header{
+        font-size: 30px;
+    }
+
+    .css-past-events-subheader{
+        padding: 0px 25px;
+        font-size: 22px;
+    }
+
+    .css-moments-header{
+        padding: 0px 30px;
+        font-size: 54px;
+        line-height: 70px;
+        margin-top: -80px;
+    }
+
+    .css-moments-text{
+        padding: 30px 20px;        
+        
+    }
+
+    .css-vision-part1{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;        
+    }
+
+    .css-row{
+        padding: 0px;
+    }
+
+    .css-vision-part2{
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .css-past-events{
+        margin-bottom: 10px;
+        padding: 0px 0px;
+        /* margin-right: 1px; */
+        /* margin-left:1px; */
+    }
+
+    .css-carousel-para{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .rental-font{
+        font-size: 16px;
+    }
+}
